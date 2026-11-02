@@ -1,48 +1,54 @@
-# Seven Kingdoms II: Titan Wars Mod v29
+# Seven Kingdoms II: Titan Wars Mod v30
 
-Seven Kingdoms II: Titan Wars Mod는 비공식 팬 모드이며 Enlight 공식판이 아닙니다. 옛 이름은 M3입니다.
+Seven Kingdoms II: Titan Wars Mod는 비공식 팬 모드이며 Enlight 공식판이 아닙니다. 옛 이름은 M3입니다. Steam Seven Kingdoms 2 HD 정품(2.10e 또는 2.20 베타)이 필요합니다. 원작 게임 파일은 포함하지 않습니다. 일반 공개 배포 중단은 유지되며 이 저장소는 정품 보유자 테스터용입니다.
 
-Steam Seven Kingdoms 2 HD 원작이 필요합니다. 2.10e와 2.20 베타를 지원하며 원작 파일은 배포물에 포함하지 않습니다.
+[정품 보유자용 런처 ZIP](https://github.com/officialsahogany/sk2-m3-tester/releases/latest/download/SK2M3Launcher.zip) · [런처 소스](https://github.com/officialsahogany/sk2-m3-tester/releases/latest/download/SK2M3Launcher-source.zip)
 
-1. 런처 ZIP을 풀고 `SK2M3Launcher.exe`를 실행합니다.
-2. 모드 폴더로 새 빈 폴더 또는 기존 M3/Titan Wars 설치 폴더를 선택합니다.
-3. 업데이트 확인 → 게임 설치/업데이트 → 게임 시작을 누릅니다.
+런처 ZIP을 풀고 SK2M3Launcher.exe를 실행합니다. 모드용 빈 폴더 또는 기존 M3/Titan Wars 설치 폴더를 선택한 뒤 업데이트 확인 → 게임 설치/업데이트 → 게임 시작을 누릅니다. Steam 폴더는 원작 확인 창에서만 선택합니다. 원작과 모드는 서로 다른 폴더에 두며 다른 드라이브도 지원합니다. 원작 확인 실패 시 표시된 파일과 Steam 무결성 검사를 확인하세요. 실행 중인 게임을 마친 뒤 업데이트하세요. 자세한 변경 문서와 소스는 설치 폴더 docs와 source에 있습니다.
 
-Steam 폴더는 원작 확인 창에서 선택합니다. 원작과 모드는 별도 폴더여야 하며 서로 다른 드라이브에 있어도 됩니다. 원작 확인 실패 시 표시된 파일명을 확인하고 Steam 무결성 검사를 진행하세요.
+v30은 2026년 11월 2일 선택한 메인 게임을 담습니다. 런처 프로그램은 검토된 1.25 그대로입니다.
 
-v29는 2026년 10월 31일 오후 11시 28분 선택 시점에 메인에 반영된 게임을 포함합니다. 주 메뉴 오른쪽 위 표기를 버전 숫자 없이 "Titan Wars Mod"로 바꿨습니다(모든 언어에서 같음). 새 규칙 판의 컴퓨터 나라(사람·프라이탄)는 시작 2년 뒤부터 가까운 요새·둥지 3~8곳의 병력을 모아 장군과 함께 한꺼번에 공격하는 지역 총공세를 하고, 그 사이 두 곳 이하의 작은 공격도 섞어 합니다. 브레그마 감염·엑소붐 마법증폭 연구, 인간사육 국가의 식민지 첩자와 첩보 연구, 다른 종족 프라이탄 국가의 둥지 연구, 더블클릭 부대 선택과 속도 12단계를 반영했습니다. 벨주크 치유와 천공방벽, 유대강화 비용, 거인 방어력과 여관 고용비 조정, 세계 정복 원정 창과 식민지 감시관 표시 등도 포함됩니다. 포승줄 아이템, 트로이 목마 수리와 탑승 커서, 거인 공격 속도 조정, 타락한 요새, 십자군 거대 병기, 세계정복 지역 무한 전환 수정과 세계 지도 버튼, 이시스 인구 증가, 프라이탄 AI 병력 보존 및 인간 스크롤·신전 규칙, 유물 배치 커서와 새 왕국 인구 처리를 추가 반영합니다. 저장 형식은 463입니다. v29에서 저장한 게임은 이전 버전에서 불러올 수 없습니다. 이전 판의 저장은 그대로 불러올 수 있습니다. 상세한 변경 문서는 설치 폴더의 `docs`에 있습니다.
+v29 이후 변경:
+- 첫 게임 시작 때 리플레이 검증 캐시가 NTFS에서 잠시 멈추던 문제를 고쳤습니다.
+- 프라이탄 노예 마을 공물을 원작과 같은 1배로 되돌렸습니다. 엑소붐 번개 폭풍은 4회 타격마다 20에서 30으로 바뀌었습니다.
+- 인간 지역 총공세의 60칸 변경을 철회해 40칸으로 되돌렸습니다. 쉬는 야생 용과 병력이 탄 트로이 목마를 다룰 때의 충돌 방지도 포함합니다.
+- 유물은 자동으로 줍지 않으며 직접 줍기와 AI 수집은 유지합니다. 일반 유닛의 다이아몬드장·오팔장과 거인 어깨 갑옷의 계급 금속색을 수정했습니다.
+- 비마 벌집·타르메스 개미집을 더블클릭으로 함께 선택하고 번식할 수 있습니다. 추방자의 전당 고용 B키, 주인 없는 둥지 매수 E키를 추가했습니다.
+- 왕국 배치 Classic / Spread Out 옵션과 공물 마을에서 생기는 신생 왕국 처리를 반영했습니다.
+- 브라질 포르투갈어 첫 편집 초안을 추가했습니다. 게임 첫 화면의 언어 순환은 한국어 → English → 简体中文 → Português입니다. 런처 1.25의 언어 메뉴는 한국어·영어·중국어만 지원하므로 Português는 게임 첫 화면에서 선택하세요.
 
-런처는 1.25로 업데이트됩니다. 버그리포트를 만들 때 최근 AI 통계 로그를 자동 첨부합니다(최대 6개, 파일당 최대 4MiB, 합계 최대 12MiB). 긴 로그는 처음과 끝을 남기며 누락 범위를 기록합니다. 전송은 사용자가 보내기 버튼을 눌러야 시작됩니다. 이 기능은 분석 자료를 보강하며 인간 AI 유지비 제보의 원인 해결을 뜻하지 않습니다.
+포르투갈어는 기계 번역을 보조로 사용한 첫 편집 초안이며 원어민 검토가 끝나지 않았습니다. 29개 중 28개 글꼴에서 악센트 글자가 작고 1~2픽셀 위로 뜹니다(FNT_SOP 제외). F8 순위 단추는 Patente, 도움말은 Classificação로 서로 다릅니다. 일부 첫 화면 두 줄 단추가 비좁고, 프라이탄 왕 칭호 Supremo / All High와 Fryhtan / Fryhtans 표기가 섞여 있습니다. FNT_BLD 최대 높이는 14에서 15로 바뀌었으며 화면 영향은 찾지 못했습니다. 후속 수정 지시는 있지만 이 판에는 아직 적용되지 않았습니다. 한국어·영어·중국어 문구와 기존 글자 픽셀은 유지합니다.
 
-런처 1.21~1.24는 먼저 1.25로 자동 업데이트합니다. 게임 실행 중에는 게임을 마친 뒤 업데이트하세요.
+이 판의 저장 형식은 463입니다. 저장·설정·리플레이 파일은 업데이트 때 보존합니다. 다만 v29 및 이전 판의 녹화는 기록 당시 실행 파일·자료 해시가 달라 업데이트 후 재생할 수 없으며, 파일은 삭제하지 않습니다. v30에서 새로 녹화한 리플레이를 사용하세요. 세계 정복 모드는 리플레이를 기록하지 않습니다. 새 저장을 구버전에서 열 수 있다고 보장하지 않습니다.
 
-저장·설정·리플레이 파일은 보존됩니다. 다만 v28 및 이전에 녹화한 리플레이는 기록 당시 실행 파일과 자료가 달라 이번 업데이트 후 재생할 수 없습니다. 파일 자체는 삭제하지 않습니다. v29에서 새로 만든 리플레이를 사용하세요. 세계 정복 모드는 리플레이를 기록하지 않습니다. 새 버전 저장을 구버전에서 열 수 있다고 보장하지 않습니다.
+알려진 기존 시험 실패는 실패로 유지합니다: 중국어 백과사전 wrapped body fits, 한국어 Tab을 기대하는 hotkeys 판정, startup/research-rule, 티탄 성소 번역 제목, 관전자 참가 AI-tribute-progression, caravan-stock, item-enhancement, blacksmith-input, m3-fort-controls, attack-filter, restart-menu, 유물 작업의 item-tooltip 기존 실패. 별도 관전자 설정·밸런스 측정은 아직 게시되지 않아 포함하지 않았습니다. 네트워크 멀티플레이는 검증하지 않았습니다. 전체 시험이나 모든 옛 저장의 호환을 보장하지 않습니다.
+
+런처 1.25는 버그리포트에 최근 AI 통계 로그를 최대 6개, 파일당 4MiB, 합계 12MiB까지 첨부합니다. 긴 로그는 처음과 끝을 남기고 누락 범위를 기록합니다. 사용자가 보내기 버튼을 눌러야 전송합니다. 인간 AI 유지비 원인 해결을 뜻하지 않으며 P2P 공유 기능은 없습니다. 런처 1.21~1.24는 1.25로 자체 업데이트하고 이미 1.25인 런처는 그대로 사용합니다.
 
 ## English
 
-Seven Kingdoms II: Titan Wars Mod (formerly M3) is an unofficial fan mod, not an official Enlight release. An owned Steam copy of Seven Kingdoms 2 HD is required; 2.10e and the 2.20 beta are supported. Original game files are not included.
+v30 packages the published main game selected on November 2, 2026. The reviewed launcher 1.25 program is unchanged.
 
-Extract the launcher ZIP and run `SK2M3Launcher.exe`. Select an empty mod folder or your existing M3/Titan Wars folder, then Check for updates → Install game/Update → Start game. Select the Steam folder only for original verification; separate folders on different drives are supported.
+Changes since v29: the NTFS replay-cache first-start freeze fix; Fryhtan slave-town tribute restored to its original amount; Exovum Lightning Storm increased from 20 to 30 damage for each of four pulses; withdrawal of the human regional-wave 60-tile change (back to 40); a crash guard for resting wild dragons and occupied Trojan Horses; no automatic relic pickup while manual and AI pickup remain; ordinary Diamond/Opal rank metal and Laestrygonian pauldron rank colours; Bheema-Hyfe/Tarmes-Mownd group selection/breeding; Exiles Hall B and unowned-lair E hotkeys; Classic/Spread Out kingdom placement; newborn kingdoms from tribute towns; Brazilian Portuguese.
 
-v29 packages the published main game selected at the October 31 request time (11:28 pm KST). The main-menu label now reads "Titan Wars Mod" without a version number in every language. In new-rule games, computer kingdoms (human and Fryhtan) gather troops from 3 to 8 nearby forts or lairs from the second year and attack together with their generals (regional waves), with small attacks by at most two forts or lairs in between. Earlier changes: Bregma Infection and Exovum Magic Amplification, colony spies and espionage research, cross-species lair research, double-click unit selection, speed step 12, recent balance changes and World Conquest expedition improvements. Also includes Binding Rope, Trojan Horse repair and boarding cursor, slower giant attacks, Corrupted Forts, Crusade mega weapons, the World Conquest region-loop fix and world-map button, Isis population growth, Fryhtan AI troop preservation and human-scroll/Seat-of-Power restrictions, relic-placement cursor and newborn-kingdom population handling. The save format is 463. Games saved in v29 cannot be loaded by older versions; older saves still load. See the installed `docs` folder for details.
+Portuguese is a brand-new, machine-assisted first editorial draft. Native-speaker review is pending. Select Português in the game's title-menu cycle (ko, en, zh, pt); launcher 1.25 itself still offers only Korean, English and Chinese. Known limitations: accent glyphs render about 1-2 px high and smaller than base glyphs on 28 of 29 fonts (except FNT_SOP); F8 reads Patente while help/tutorial say Classificação; some two-line title buttons are cramped; Supremo / All High (43 body uses) and Fryhtans (97) / Fryhtan (513) are mixed; FNT_BLD maximum height changed from 14 to 15 (no screen effect found). Fixes are planned but not applied in this build. Existing Korean, English and Chinese text and glyph pixels are retained.
 
-Launcher 1.25 automatically includes up to six recent AI metrics logs in bug reports, capped at 4MiB per file and 12MiB total. Long logs retain beginning/end records with omissions recorded. Reports are sent only when you press Send. This improves diagnostic evidence and does not claim to fix the reported human-AI economy issue. Launchers 1.21–1.24 update to 1.25 first; finish any running game before updating.
+Save format is 463. Saves, settings and recording files are preserved during update. Recordings made in v29 or earlier are cleanly refused after this update because recorded executable/data hashes differ; recording files are kept. New v30 recordings can play. World Conquest does not record replays. Downgrade save compatibility is not guaranteed.
 
-Saves, settings and recording files are kept. Recordings from v28 or earlier cannot play after this in-place update because the recorded executable/data differ. Use new v29 recordings; World Conquest does not record replays. New saves are not guaranteed to open in older versions.
+Existing baseline failures remain failures: Chinese encyclopedia wrapped-body-fits, hotkeys Korean-Tab expectation, startup/research-rule assertion, titan sanctuary localized title, spectator-join AI-tribute-progression, caravan-stock, item-enhancement, blacksmith-input, m3-fort-controls, attack-filter, restart-menu and the relic task's existing item-tooltip failure. Separate spectator-setting/balance measurements are unpublished and excluded. Network multiplayer is unverified. No claim covers every test, campaign or historical save.
+
+Launcher 1.25 attaches up to six recent AI-metrics logs to a user-initiated bug report (4 MiB per file, 12 MiB total), retaining the head/tail of oversized files and stating omitted ranges. Sending requires the user to press Send. This is diagnostic support, not a claimed human-AI upkeep fix. There is no P2P sharing. Versions 1.21-1.24 self-update to 1.25; an existing 1.25 launcher stays unchanged.
 
 ## 中文
 
-Seven Kingdoms II: Titan Wars Mod（原名 M3）是非官方同人模组，并非 Enlight 官方版本。需要拥有 Steam Seven Kingdoms 2 HD 原版；支持 2.10e 和 2.20 测试版。本包不包含原版游戏文件。
+v30包含2026年11月2日选定的已发布主游戏，启动器程序仍为已审核的1.25。
 
-解压启动器 ZIP，运行 `SK2M3Launcher.exe`，选择新的空模组文件夹或现有 M3/Titan Wars 文件夹，然后检查更新 → 安装游戏/更新 → 启动游戏。仅在原版验证窗口中选择 Steam 文件夹；原版与模组必须分开，可以位于不同磁盘。
+相对v29：修复NTFS回放缓存首次开始卡顿；弗莱坦奴隶城镇贡金恢复原作数值；Exovum雷暴每次伤害20改为30，共4次；撤回人类区域总攻60格改动，恢复40格；防止休息的野龙和载人特洛伊木马相关崩溃；自动拾取排除遗物，保留手动与AI拾取；修正普通单位钻石/蛋白石军衔金属色和巨人肩甲军衔色；蜂巢/蚁巢成组选择与繁殖；流亡者大厅B键雇佣和无主巢穴E键收购；Classic/Spread Out王国分布与贡金城镇新生王国处理；加入巴西葡萄牙语。
 
-v29 包含 10 月 31 日提出更新时已经发布到主游戏的改动。主菜单右上角标签改为不带版本号的“Titan Wars Mod”，所有语言相同。新规则对局中，电脑王国（人类与弗莱坦）从第二年起集结附近3至8座要塞或巢穴的兵力，与将军一同发动区域总攻，其间也会穿插至多两处的小规模攻击。此前版本的改动：布雷格玛感染、艾索姆魔法增幅、殖民地间谍与间谍研究、跨种族巢穴研究、双击选择部队、速度12档，以及近期平衡和世界征服远征窗口调整。还包含束缚绳、特洛伊木马修理与登乘光标、巨人攻击速度调整、堕落堡垒、十字军巨型兵器、世界征服区域循环修复与世界地图按钮、伊西斯人口增长、弗雷坦AI兵力保存及人类卷轴与权力之座限制、遗物放置光标和新王国人口处理。存档格式为463，v29保存的游戏无法用旧版本读取，旧存档仍可读取。详细说明见安装文件夹中的 `docs`。
+葡萄牙语是机器辅助的首版编辑草稿，尚未完成母语者审核。请在游戏标题画面的ko→en→zh→pt语言循环中选择Português；1.25启动器菜单仍仅支持韩、英、中。已知问题包括28/29种字体的重音字符偏小并高出约1至2像素（FNT_SOP除外）、F8按钮Patente与帮助Classificação不一致、部分双行标题按钮拥挤、Supremo/All High以及Fryhtan/Fryhtans混用、FNT_BLD最大高度14改为15但未发现画面影响。修复已计划，但本版尚未应用。韩、英、中原有文本及字形像素保留。
 
-启动器1.25会在错误报告中自动附加最近最多六个AI统计日志，每个最多4MiB、合计最多12MiB。过长日志保留开头和结尾的完整记录，并注明省略范围。只有点击发送后才上传。此功能用于补充诊断资料，不代表已解决人类AI经济问题。启动器1.21–1.24会先升级至1.25，请结束正在运行的游戏后更新。
+存档格式463。更新保留存档、设置和回放文件。v29及更早回放因记录的可执行文件/资料哈希不同而被明确拒绝播放，文件不会删除；请使用v30新回放。世界征服不录制回放，不保证新存档可用旧版打开。
 
-保留存档、设置和录像文件，但v28及更早版本的录像因执行文件和数据变化，在本次原地更新后无法播放。录像文件不会删除，请使用v29新录像。世界征服模式不记录回放。新版存档不保证能用旧版读取。
+既有测试失败保留为失败：中文百科换行、hotkeys韩文Tab预期、startup/research-rule、泰坦圣所译名、spectator-join AI-tribute-progression，以及caravan-stock、item-enhancement、blacksmith-input、m3-fort-controls、attack-filter、restart-menu和既有item-tooltip问题。独立的观战设置/平衡测量尚未发布，不在本版内。网络多人游戏未验证。
 
-이 저장소는 원작 소유 필수 테스터용 차이 팩과 런처·대응 소스를 제공합니다. 일반 공개 배포 중단은 유지됩니다. Steam·Reddit·커뮤니티 사이트 등 공개 게시물에 다운로드 링크를 배포하지 않습니다.
-
-
-검증 범위: 실제 네트워크 멀티플레이는 검증하지 않았습니다. 기존 메인과 이번 선택본에서 동일하게 실패한 자동 시험 caravan-stock(재고 블록 버전), item-enhancement(강화 아이템 드롭), blacksmith-input(생산 모듈 로드) 3건을 알려진 제한으로 유지합니다. 이 항목들을 통과했다고 주장하지 않습니다. 지역 총공세 게시 때 메인 실행 파일에서도 같은 문구로 실패한 회귀 시험 m3-fort-controls, attack-filter, restart-menu 3건과, 메인에서도 실패하는 중국어 백과사전 전체 넘기기 시험의 줄바꿈 판정도 알려진 제한으로 유지합니다.
+启动器1.25仅在用户发送错误报告时附带最近AI日志（最多6个、每个4MiB、总计12MiB），长日志保留首尾并说明省略范围；不代表人类AI维护费问题已解决，无P2P共享。1.21至1.24升级为1.25，已有1.25不变。
